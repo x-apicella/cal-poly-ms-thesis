@@ -377,10 +377,8 @@ def ensure_data_available(local_data_dir, drive_data_dir, peaks_per_signal):
 def main():
     # Define paths
     database_path = os.path.join('a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0',
-                                 'a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0',
                                  'WFDBRecords')
     csv_path = os.path.join('a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0',
-                            'a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0',
                             'ConditionNames_SNOMED-CT.csv')
 
     # Define the class mapping

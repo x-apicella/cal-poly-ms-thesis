@@ -44,7 +44,7 @@ def main():
                     '203', '205', '207', '208', '209', '210', '212', '213', '214', '215', '217', '219', '221',
                     '222', '223', '228', '230', '231', '232', '233', '234']
     valid_labels = ['N', 'V', 'A', 'R', 'L', '/']
-    database_path = 'mit-bih-arrhythmia-database/mit-bih-arrhythmia-database-1.0.0/'
+    database_path = 'mit-bih-arrhythmia-database-1.0.0/'
 
     # Prepare data
     X_train, X_valid, X_test, y_train, y_valid, y_test, num_classes, Num2Label = prepare_mitbih_data(

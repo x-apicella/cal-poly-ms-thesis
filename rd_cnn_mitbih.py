@@ -27,7 +27,7 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 # Define database path
-database_path = os.path.join('mit-bih-arrhythmia-database', 'mit-bih-arrhythmia-database-1.0.0')
+database_path = 'mit-bih-arrhythmia-database-1.0.0/'
 
 # Helper Classes and Functions
 

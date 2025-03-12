@@ -120,7 +120,7 @@ database_zip_files/
 a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0.zip
 a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0/
 mit-bih-arrhythmia-database-1.0.0.zip
-mit-bih-arrhythmia-database/
+mit-bih-arrhythmia-database-1.0.0/
 csnecg_preprocessed_data/
 csnecg_segments_10peaks.hdf5
 csnecg_segments.hdf5
@@ -135,13 +135,16 @@ output_plots_roshancnn/
 output_plots_roshancnn_draft1/
 csnecg_output_plots/
 ecg_plots/
+mitbih_peak_plots/
+csnecg_peak_plots/
 
 # helper scripts
 extract_record_structure.py
 text_files.py
 create_ms_word_appendix.py
 code_appendix.html
-data_test.py
 gpu_env_check.py
 analyze_label_stats.py
-visualize_ecg_peaks.py
+visualize_csnecg_peaks.py
+visualize_mitbih_peaks.py
+data_test.py
